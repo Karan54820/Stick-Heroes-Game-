@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="312.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.approject.GameOverScreenController">
+   <children>
+      <ImageView fitHeight="670.0" fitWidth="332.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hjjhjbh.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#080808" height="637.0" layoutX="-1.0" layoutY="-3.0" opacity="0.68" stroke="BLACK" strokeType="INSIDE" width="314.0" />
+      <Label layoutX="67.0" layoutY="68.0" text="Game Over" textFill="#fffdfd">
+         <font>
+            <Font name="Berlin Sans FB" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="score" layoutX="27.0" layoutY="176.0" prefHeight="54.0" prefWidth="257.0" text="Score : " textFill="#fff9f9">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="best" layoutX="27.0" layoutY="273.0" prefHeight="54.0" prefWidth="258.0" text="Best : " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="73.0" fitWidth="68.0" layoutX="119.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@white-home-icon-vector-7151383-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="Home" layoutX="119.0" layoutY="412.0" mnemonicParsing="false" onAction="#backHome" opacity="0.0" prefHeight="62.0" prefWidth="68.0" textFill="#1b1919">
+         <font>
+            <Font name="Bernard MT Condensed" size="29.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
